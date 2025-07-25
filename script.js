@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // 🔸 GAVETA (MENU)
+  //  GAVETA (MENU)
   const menuButton = document.getElementById('menuButton');
   const drawer = document.getElementById('drawer');
   const overlay = document.getElementById('overlay');
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 🔸 CARRINHO
+  //  CARRINHO
   let cart = JSON.parse(localStorage.getItem('cart')) || [];
   updateCartCount();
 
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 2000);
   }
 
-  // 🔸 PRODUTOS
+  //  PRODUTOS
   const categorias = [
     { nome: "Chuteiras", arquivo: "chuteiras.json" },
     { nome: "Luvas", arquivo: "luvas.json" },
