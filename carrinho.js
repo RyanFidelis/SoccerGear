@@ -7,20 +7,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
-  // Atualizar contador do carrinho
+  // Atualizar contagem
   function updateCartCount() {
     const totalItems = cart.reduce((total, item) => total + item.quantity, 0);
     cartCount.textContent = totalItems;
   }
 
-  // Calcular totais
+  // Calcular 
   function calculateTotals() {
     const subtotal = cart.reduce((sum, item) => sum + (item.preco * item.quantity), 0);
     subtotalElement.textContent = `R$ ${subtotal.toFixed(2).replace('.', ',')}`;
     totalElement.textContent = `R$ ${subtotal.toFixed(2).replace('.', ',')}`;
   }
 
-  // Renderizar itens do carrinho
+  // Renderizar
   function renderCartItems() {
     if (cart.length === 0) {
       carrinhoItens.innerHTML = '<p class="carrinho-vazio">Seu carrinho está vazio</p>';
@@ -43,7 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
     `).join('');
 
-    // Adicionar event listeners para os botões de quantidade
     document.querySelectorAll('.quantidade-btn.menos').forEach(btn => {
       btn.addEventListener('click', (e) => {
         const itemElement = e.target.closest('.carrinho-item');
@@ -70,7 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
 
-    // Adicionar event listeners para remover itens
     document.querySelectorAll('.remover-item').forEach(btn => {
       btn.addEventListener('click', (e) => {
         const itemElement = e.target.closest('.carrinho-item');
@@ -81,7 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Atualizar todo o carrinho
   function updateCart() {
     localStorage.setItem('cart', JSON.stringify(cart));
     renderCartItems();
@@ -89,7 +86,6 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCartCount();
   }
 
-  // Finalizar compra
   finalizarCompraBtn.addEventListener('click', () => {
     if (cart.length === 0) {
       alert('Seu carrinho está vazio!');
@@ -101,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCart();
   });
 
-  // Inicializar
+
   updateCartCount();
   renderCartItems();
   calculateTotals();
