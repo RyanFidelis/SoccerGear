@@ -71,7 +71,7 @@ body {
   z-index: 1000;
   transform: translateX(-100%);
   transition: transform 0.3s ease;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3); /* Sombra na gaveta */
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3); 
 }
 
 .drawer.open {
@@ -205,7 +205,7 @@ footer {
   margin-right: 10px;
 }
 
-/* ----------- Estilo da página do carrinho ----------- */
+/* -----------carrinho ----------- */
 main.carrinho-container {
   display: flex;
   flex-direction: column;
