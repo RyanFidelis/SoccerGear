@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "nome": "Nike Mercurial",
+    "imagem": "produtos/chuteira1.jpeg",
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90,
+    "tipo": "Futsal"
+  },
+  {
+    "id": 2,
+    "nome": "Nike Mercurial",
+    "imagem": "produtos/chuteira2.webp",
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90,
+    "tipo": "Futsal"
+  },
+  {
+    "id": 3,
+    "nome": "Nike Phantom",
+    "imagem": "produtos/chuteira3.avif",
+    "descricao": "Chuteira de futsal com cano alto e cabedal texturizado, ideal para jogos em quadras indoor.",
+    "preco": 449.90,
+    "tipo": "Futsal"
+  },
+  {
+    "id": 4,
+    "nome": "Nike mercurial superfly 7",
+    "imagem": "produtos/chuteira4.jpeg",
+    "descricao": "Chuteira de society com visual moderno, conforto e tração ideal para gramados society.",
+    "preco": 299.90,
+    "tipo": "Society"
+  },
+  {
+    "id": 5,
+    "nome": "Nike Phantom VSN elite",
+    "imagem": "produtos/chuteira5.jpg",
+    "descricao": "Versão VSN elite, ideal para jogos rápidos em Campos.",
+    "preco": 299.90,
+    "tipo": "Campo"
+  },
+  {
+    "id": 6,
+    "nome": "Nike React Gato",
+    "imagem": "produtos/chuteira6.jpeg",
+    "descricao": "Chuteira Futsal com design chamativo e ótimo desempenho em quadras.",
+    "preco": 199.90,
+    "tipo": "Futsal"
+  },
+  {
+    "id": 7,
+    "nome": "Nike React Gato",
+    "imagem": "produtos/chuteira7.webp",
+    "descricao": "Chuteira de futsal com solado liso e amortecimento responsivo para partidas em indoor.",
+    "preco": 279.90,
+    "tipo": "Futsal"
+  },
+  {
+    "id": 8,
+    "nome": "Adidas Predator accuracy 4",
+    "imagem": "produtos/chuteira8.jpg",
+    "descricao": "Modelo Predator com cabedal texturizado e solado para campo natural.",
+    "preco": 319.90,
+    "tipo": "Campo"
+  },
+  {
+    "id": 9,
+    "nome": "Adidas Deportivo II",
+    "imagem": "produtos/chuteira9.webp",
+    "descricao": "Chuteira leve para campo com design aerodinâmico e ótimo grip nas travas.",
+    "preco": 379.90,
+    "tipo": "Campo"
+  },
+  {
+    "id": 10,
+    "nome": "Adidas Predator accuracy 4",
+    "imagem": "produtos/chuteira10.jpg",
+    "descricao": "Chuteira de campo com visual clássico e travas altas para boa estabilidade.",
+    "preco": 399.90,
+    "tipo": "Campo"
+  },
+  {
+    "id": 11,
+    "nome": "Adidas Predator",
+    "imagem": "produtos/chuteira11.webp",
+    "descricao": "Chuteira de futsal com design vibrante e solado emborrachado para quadras indoor.",
+    "preco": 269.90,
+    "tipo": "Futsal"
+  },
+  {
+    "id": 12,
+    "nome": "Umbro Adamant",
+    "imagem": "produtos/chuteira12.webp",
+    "descricao": "Chuteira de society clássica com solado resistente para uso frequente em campos sintéticos.",
+    "preco": 249.90,
+    "tipo": "Society"
+  },
+  {
+    "id": 13,
+    "nome": "Umbro Velocita 2 Pró SG",
+    "imagem": "produtos/chuteira13.webp",
+    "descricao": "Chuteira de campo com travas tradicionais, ideal para jogos em gramado natural.",
+    "preco": 299.90,
+    "tipo": "Campo"
+  },
+  {
+    "id": 14,
+    "nome": "Umbro Velocita IV Premier FG",
+    "imagem": "produtos/chuteira14.avif",
+    "descricao": "Modelo clássico da Umbro com travas para campo, ideal para gramados naturais e durabilidade.",
+    "preco": 199.90,
+    "tipo": "Campo"
+  },
+  {
+    "id": 15,
+    "nome": "Nike Superfly 10 ",
+    "imagem": "produtos/chuteira15.jpeg",
+    "descricao": "Chuteira campo com visual moderno, leveza e tração otimizada para gramados.",
+    "preco": 279.90,
+    "tipo": "Campo"
+  },
+  {
+    "id": 16,
+    "nome": "Nike Mercurial Vapor 14 Pro FG",
+    "imagem": "produtos/chuteira16.jpeg",
+    "descricao": "Chuteira campo com design elegante e sola com excelente aderência.",
+    "preco": 279.90,
+    "tipo": "Campo"
+  },
+  {
+    "id": 17,
+    "nome": "Puma Future Z 4.4",
+    "imagem": "produtos/chuteira17.jpg",
+    "descricao": "Modelo campo ideal para gramados, com ótimo ajuste e responsividade.",
+    "preco": 279.90,
+    "tipo": "campo"
+  },
+  {
+    "id": 18,
+    "nome": "Puma Future Z 4.3",
+    "imagem": "produtos/chuteira18.webp",
+    "descricao": "Chuteira campo com construção leve e ótimo controle em gramados.",
+    "preco": 279.90,
+    "tipo": "campo"
+  }
+]

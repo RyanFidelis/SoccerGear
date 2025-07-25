@@ -1,0 +1,79 @@
+[
+{
+    "id": 1,
+    "nome": "Poker Shield",
+    "imagem": "produtos/luva1.jpeg",
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90
+  },
+  {
+    "id": 2,
+    "nome": "Zeus N1 Ares",
+    "imagem": "produtos/luva2.webp",
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90
+  },
+  {
+    "id": 3,
+    "nome": "Infinity Delta",
+    "imagem": "produtos/luva3.webp",
+    "descricao": "Chuteira de futsal com cano alto e cabedal texturizado, ideal para jogos em quadras indoor.",
+    "preco": 449.90
+  },
+  {
+    "id": 4,
+    "nome": "Topper KV League 17",
+    "imagem": "produtos/luva4.avif",
+    "descricao": "Chuteira de society com visual moderno, conforto e tração ideal para gramados society.",
+    "preco": 299.90
+  },
+  {
+    "id": 5,
+    "nome": "Puma One Grip 17.4",
+    "imagem": "produtos/luva5.avif",
+    "descricao": "Versão VSN elite, ideal para jogos rápidos em Campos.",
+    "preco": 299.90
+  },
+  {
+    "id": 6,
+    "nome": "Ho Soccer One Roll Negative Kombat",
+    "imagem": "produtos/luva6.webp",
+    "descricao": "Chuteira Futsal com design chamativo e ótimo desempenho em quadras.",
+    "preco": 199.90
+  },
+  {
+    "id": 7,
+    "nome": "Three Stars Fox - Profissional",
+    "imagem": "produtos/luva7.webp",
+    "descricao": "Chuteira de futsal com solado liso e amortecimento responsivo para partidas em indoor.",
+    "preco": 279.90
+  },
+  {
+    "id": 8,
+    "nome": "Poker Deep 8 Profissional",
+    "imagem": "produtos/luva8.webp",
+    "descricao": "Modelo Predator com cabedal texturizado e solado para campo natural.",
+    "preco": 319.90
+  },
+  {
+    "id": 9,
+    "nome": "Poker Semi Profissional Championship",
+    "imagem": "produtos/luva9.webp",
+    "descricao": "Chuteira leve para campo com design aerodinâmico e ótimo grip nas travas.",
+    "preco": 379.90
+  },
+  {
+    "id": 10,
+    "nome": "N1 Horus Elite",
+    "imagem": "produtos/luva10.webp",
+    "descricao": "Chuteira de campo com visual clássico e travas altas para boa estabilidade.",
+    "preco": 399.90
+  },
+  {
+    "id": 11,
+    "nome": "Raptor Neo Pro Negative",
+    "imagem": "produtos/luva11.webp",
+    "descricao": "Chuteira de futsal com design vibrante e solado emborrachado para quadras indoor.",
+    "preco": 269.90
+  }
+]

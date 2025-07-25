@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Esportes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <button id="menuButton" class="icon-button">
+      <img src="imagem/menu.png" alt="Menu" class="icon">
+    </button>
+
+    <img src="imagem/Marca.png" alt="Marca" class="marca">
+
+    <div class="carrinho-container">
+      <img src="imagem/carrinho.png" alt="Carrinho" class="icon carrinho" id="abrirCarrinho">
+      <span id="cartCount" class="cart-count">0</span>
+    </div>
+  </header>
+  
+  <div id="overlay" class="hidden"></div>
+  
+  <nav id="drawer" class="drawer hidden">
+    <div class="conta">
+      <img src="imagem/users.png" alt="Usuário">
+      <p>Minha Conta</p>
+    </div>
+    <ul>
+      <li>Minhas Compras</li>
+      <li>Histórico</li>
+      <li>Notificações</li>
+      <li>Cupons</li>
+      <li>Favoritos</li>
+      <li>Soccer Points</li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2 class="titulo">Lançamento</h2>
+    <div class="anuncio">
+      <img src="imagem/anuncio.jpg" alt="Anúncio">
+      <p>Nike React Gato - Futsal</p>
+    </div>
+
+    <hr>
+
+    <h2 class="titulo">Produtos</h2>
+
+    <!-- Seções modificadas para carregamento dinâmico -->
+    <section class="categoria">
+      <h3>Chuteiras</h3>
+      <div class="produtos grid-produtos"></div>
+    </section>
+
+    <section class="categoria">
+      <h3>Luvas</h3>
+      <div class="produtos grid-produtos"></div>
+    </section>
+
+    <section class="categoria">
+      <h3>Camisas</h3>
+      <div class="produtos grid-produtos"></div>
+    </section>
+
+    <section class="categoria">
+      <h3>Caneleiras</h3>
+      <div class="produtos grid-produtos"></div>
+    </section>
+
+    <section class="categoria">
+      <h3>Meiões</h3>
+      <div class="produtos grid-produtos"></div>
+    </section>
+
+    <section class="categoria">
+      <h3>Bolas</h3>
+      <div class="produtos grid-produtos"></div>
+    </section>
+
+    <footer>
+      <div class="ajuda">
+        <h4>• Ajuda</h4>
+        <p>Dúvidas</p>
+        <p>Encontre seu Tamanho</p>
+        <p>Entregas em geral</p>
+        <p>Trocas e Devoluções</p>
+        <p>Fale Conosco</p>
+      </div>
+      <div class="redes">
+        <h4>Redes Sociais</h4>
+        <div class="icones">
+          <img src="https://imagepng.org/wp-content/uploads/2017/09/facebook-icone-icon-1.png" alt="Facebook">
+          <img src="https://zoobe.pk/assets/img/social/instagram.png" alt="Instagram">
+          <img src="https://indify.co/custom-emojis/youtube.png" alt="YouTube">
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Scripts modificados -->
+
+  <script src="script.js"></script>
+</body>
+</html>
