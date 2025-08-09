@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "nome": "Camisa Corinthians 21/22",
+    "imagem": "produtos/camisa1.avif",
+    "angulo": [
+      "produtos/camisa1.avif",
+      "produtos/camisa1_1.avif",
+      "produtos/camisa1_2.avif",
+      "produtos/camisa1_3.avif",
+      "produtos/camisa1_4.avif"
+    ],
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90
+  },
+  {
+    "id": 2,
+    "nome": "Camisa Corinthians 25/26",
+    "imagem": "produtos/camisa2.jpg",
+    "angulo": [
+      "produtos/camisa2.jpg",
+      "produtos/camisa2_1.jpg",
+      "produtos/camisa2_2.jpg"
+    ],
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90
+  },
+  {
+    "id": 3,
+    "nome": "Camisa Barcelona 24/25",
+    "imagem": "produtos/camisa3.png",
+    "angulo": [
+      "produtos/camisa3.png",
+      "produtos/camisa3_1.png",
+      "produtos/camisa3_2.png"
+    ],
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90
+  },
+  {
+    "id": 4,
+    "nome": "Camisa Seleção Brasileira 22/23",
+    "imagem": "produtos/camisa4.webp",
+    "angulo": [
+      "produtos/camisa4.webp",
+      "produtos/camisa4_1.webp",
+      "produtos/camisa4_2.webp",
+      "produtos/camisa4_3.webp"
+    ],
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90
+  },
+  {
+    "id": 5,
+    "nome": "Camisa Real Madrid 25/26",
+    "imagem": "produtos/camisa5.webp",
+    "angulo": [
+      "produtos/camisa5.webp",
+      "produtos/camisa5_1.webp",
+      "produtos/camisa5_2.avif"
+    ],
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90
+  },
+  {
+    "id": 6,
+    "nome": "Camisa do PSG IV 24/25",
+    "imagem": "produtos/camisa6.avif",
+    "angulo": [
+      "produtos/camisa6.avif",
+      "produtos/camisa6_1.avif",
+      "produtos/camisa6_2.avif",
+      "produtos/camisa6_3.avif",
+      "produtos/camisa6_4.avif"
+    ],
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90
+  },
+  {
+    "id": 7,
+    "nome": "Camisa Chelsea 24/25",
+    "imagem": "produtos/camisa7.webp",
+    "angulo": [
+      "produtos/camisa7.webp",
+      "produtos/camisa7_1.webp"
+    ],
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90
+  },
+    {
+    "id": 8,
+    "nome": "Camisa Manchester City 24/25",
+    "imagem": "produtos/camisa8.webp",
+    "angulo": [
+      "produtos/camisa8.webp",
+      "produtos/camisa8_1.webp",
+      "produtos/camisa8_2.webp",
+      "produtos/camisa8_3.webp",
+      "produtos/camisa8_4.webp"
+    ],
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90
+  }
+  
+]

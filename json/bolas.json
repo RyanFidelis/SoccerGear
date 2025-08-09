@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "nome": "Bola Nike Pitch Futebol",
+    "imagem": "produtos/bola1.webp",
+    "descricao": "Bola de futebol com design vibrante para melhor visibilidade e controle.",
+    "preco": 89.90
+  },
+  {
+    "id": 2,
+    "nome": "Bola Nike Pitch Futebol",
+    "imagem": "produtos/bola2.webp",
+    "descricao": "Bola de treino resistente, ideal para partidas recreativas e escolares.",
+    "preco": 99.90
+  },
+  {
+    "id": 3,
+    "nome": "Bola Nike Pitch Futebol",
+    "imagem": "produtos/bola3.webp",
+    "descricao": "Bola costurada à máquina para maior durabilidade e toque suave.",
+    "preco": 79.90
+  },
+  {
+    "id": 4,
+    "nome": "Bola Nike Pitch Futebol",
+    "imagem": "produtos/bola4.webp",
+    "descricao": "Bola leve e equilibrada, perfeita para treinos de passes e finalizações.",
+    "preco": 69.90
+  },
+  {
+    "id": 5,
+    "nome": "Bola de Futebol Campo Adidas Euro 24",
+    "imagem": "produtos/bola5.webp",
+    "descricao": "Bola oficial inspirada na Euro 2024, aprovada pela FIFA Quality Pro.",
+    "preco": 119.90,
+    "angulo": [
+      "produtos/bola5.webp",
+      "produtos/bola5_1.webp",
+      "produtos/bola5_2.webp",
+      "produtos/bola5_3.webp"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Bola Futebol Adidas Tango Glider Campo",
+    "imagem": "produtos/bola6.webp",
+    "descricao": "Bola clássica com painel costurado à máquina para maior durabilidade.",
+    "preco": 109.90,
+    "angulo": [
+      "produtos/bola6.webp",
+      "produtos/bola6_1.webp",
+      "produtos/bola6_2.webp",
+      "produtos/bola6_3.webp",
+      "produtos/bola6_4.webp"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Bola Campo Adidas Tiro Club",
+    "imagem": "produtos/bola7.webp",
+    "descricao": "Bola de futebol com construção resistente e ótimo desempenho em campo.",
+    "preco": 99.90,
+    "angulo": [
+      "produtos/bola7.webp",
+      "produtos/bola7_1.webp",
+      "produtos/bola7_2.webp"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Bola Nike Academy Team Futebol",
+    "imagem": "produtos/bola8.webp",
+    "descricao": "Bola de treino com toque consistente e alta resistência.",
+    "preco": 89.90
+  },
+  {
+    "id": 9,
+    "nome": "Bola Nike Academy Team Futebol",
+    "imagem": "produtos/bola9.webp",
+    "descricao": "Bola versátil para jogos e treinos, com design moderno.",
+    "preco": 79.90
+  }
+]

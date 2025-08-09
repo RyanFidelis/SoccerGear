@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "nome": "Meia Futebol Finta Pro Grip Antiderrapante",
+    "imagem": "produtos/meiao1.webp",
+    "descricao": "Meia profissional com grip antiderrapante para maior estabilidade durante o jogo.",
+    "preco": 89.90
+  },
+  {
+    "id": 2,
+    "nome": "Meia Futebol Finta Pro Grip Antiderrapante",
+    "imagem": "produtos/meiao2.webp",
+    "descricao": "Meia de alto desempenho com áreas de compressão para suporte extra.",
+    "preco": 99.90
+  },
+  {
+    "id": 3,
+    "nome": "Meia Futebol Finta Pro Grip Antiderrapante",
+    "imagem": "produtos/meiao3.webp",
+    "descricao": "Meia com tecido respirável e antiderrapante para máximo conforto.",
+    "preco": 79.90
+  },
+  {
+    "id": 4,
+    "nome": "Meia Futebol Finta Pro Grip Antiderrapante",
+    "imagem": "produtos/meiao4.webp",
+    "descricao": "Meia reforçada com grip para tração ideal em qualquer superfície.",
+    "preco": 69.90
+  },
+  {
+    "id": 5,
+    "nome": "Meião Nike Classic Football Dri-FIT",
+    "imagem": "produtos/meiao5.webp",
+    "descricao": "Meião oficial Nike com tecnologia Dri-FIT para controle de suor.",
+    "preco": 119.90,
+    "angulo": [
+      "produtos/meiao5.webp",
+      "produtos/meiao5_1.webp",
+      "produtos/meiao5_2.webp"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Meião Nike Classic Football Dri-FIT",
+    "imagem": "produtos/meiao6.webp",
+    "descricao": "Meião de futebol com ajuste anatômico para conforto prolongado.",
+    "preco": 109.90,
+    "angulo": [
+      "produtos/meiao6.webp",
+      "produtos/meiao6_1.webp",
+      "produtos/meiao6_2.webp"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Meião Nike Classic Football Dri-FIT",
+    "imagem": "produtos/meiao7.webp",
+    "descricao": "Meião leve e resistente, projetado para alto desempenho.",
+    "preco": 99.90,
+    "angulo": [
+      "produtos/meiao7.webp",
+      "produtos/meiao7_1.webp",
+      "produtos/meiao7_2.webp"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Meião Adidas Milano 23",
+    "imagem": "produtos/meiao8.webp",
+    "descricao": "Meião Adidas com design clássico e ajuste confortável.",
+    "preco": 89.90,
+    "angulo": [
+      "produtos/meiao8.webp",
+      "produtos/meiao8_1.webp"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Meião Adidas Milano 23",
+    "imagem": "produtos/meiao9.webp",
+    "descricao": "Meião resistente, ideal para treinos e partidas intensas.",
+    "preco": 79.90,
+    "angulo": [
+      "produtos/meiao9.webp",
+      "produtos/meiao9_1.webp"
+    ]
+  }
+]

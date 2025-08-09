@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "nome": "Luva Poker Altered",
+    "imagem": "produtos/luva1.webp",
+    "angulo": [
+      "produtos/luva1.webp",
+      "produtos/luva1_1.webp",
+      "produtos/luva1_2.webp",
+      "produtos/luva1_3.webp",
+      "produtos/luva1_4.webp"
+    ],
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90
+  },
+  {
+    "id": 2,
+    "nome": "Luva Zeus N1 Ares",
+    "imagem": "produtos/luva2.jpg",
+    "angulo": [
+      "produtos/luva2.jpg",
+      "produtos/luva2_1.jpg",
+      "produtos/luva2_2.jpg",
+      "produtos/luva2_3.jpg",
+      "produtos/luva2_4.jpg"
+    ],
+    "descricao": "Chuteira de futsal com solado liso, ideal para quadras indoor.",
+    "preco": 349.90
+  },
+  {
+    "id": 3,
+    "nome": "Luva Infinity Delta",
+    "imagem": "produtos/luva3.webp",
+    "angulo": [
+      "produtos/luva3.webp",
+      "produtos/luva3_1.webp",
+      "produtos/luva3_2.webp",
+      "produtos/luva3_3.webp"
+    ],
+    "descricao": "Chuteira de futsal com cano alto e cabedal texturizado, ideal para jogos em quadras indoor.",
+    "preco": 449.90
+  },
+  {
+    "id": 4,
+    "nome": "Luva Poker Altered",
+    "imagem": "produtos/luva4.webp",
+    "angulo": [
+      "produtos/luva4.webp",
+      "produtos/luva4_1.webp",
+      "produtos/luva4_2.webp",
+      "produtos/luva4_3.webp",
+      "produtos/luva4_4.webp"
+    ],
+    "descricao": "Chuteira de society com visual moderno, conforto e tração ideal para gramados society.",
+    "preco": 299.90
+  },
+  {
+    "id": 5,
+    "nome": "Luva Poker Altered",
+    "imagem": "produtos/luva5.webp",
+    "angulo": [
+      "produtos/luva5.webp",
+      "produtos/luva5_1.webp",
+      "produtos/luva5_2.webp",
+      "produtos/luva5_3.webp",
+      "produtos/luva5_4.webp"
+    ],
+    "descricao": "Versão VSN elite, ideal para jogos rápidos em Campos.",
+    "preco": 299.90
+  },
+  {
+    "id": 6,
+    "nome": "Luva Ho Soccer One Roll Negative Kombat",
+    "imagem": "produtos/luva6.webp",
+    "angulo": [
+      "produtos/luva6.webp",
+      "produtos/luva6_1.webp",
+      "produtos/luva6_2.webp",
+      "produtos/luva6_3.webp",
+      "produtos/luva6_4.webp"
+    ],
+    "descricao": "Chuteira Futsal com design chamativo e ótimo desempenho em quadras.",
+    "preco": 199.90
+  },
+  {
+    "id": 7,
+    "nome": "Luva Poker Altered",
+    "imagem": "produtos/luva7.webp",
+    "angulo": [
+      "produtos/luva7.webp",
+      "produtos/luva7_1.webp",
+      "produtos/luva7_2.webp",
+      "produtos/luva7_3.webp",
+      "produtos/luva7_4.webp"
+    ],
+    "descricao": "Chuteira de futsal com solado liso e amortecimento responsivo para partidas em indoor.",
+    "preco": 279.90
+  },
+  {
+    "id": 8,
+    "nome": "Luva Poker Hug Flex 3",
+    "imagem": "produtos/luva8.webp",
+    "angulo": [
+      "produtos/luva8.webp",
+      "produtos/luva8_1.webp",
+      "produtos/luva8_2.webp",
+      "produtos/luva8_3.webp"
+    ],
+    "descricao": "Chuteira leve para campo com design aerodinâmico e ótimo grip nas travas.",
+    "preco": 379.90
+  },
+  {
+    "id": 9,
+    "nome": "Luva N1 Horus Elite",
+    "imagem": "produtos/luva9.jpg",
+    "angulo": [
+      "produtos/luva9.jpg",
+      "produtos/luva9_1.webp",
+      "produtos/luva9_2.webp",
+      "produtos/luva9_3.webp"
+    ],
+    "descricao": "Chuteira de campo com visual clássico e travas altas para boa estabilidade.",
+    "preco": 399.90
+  }
+]

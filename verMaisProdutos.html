@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todos os Produtos</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .todos-produtos-container {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+    .titulo-categoria {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <h2 class="titulo-categoria"></h2>
+  <div class="todos-produtos-container" id="todosProdutos"></div>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="headerFooter.js"></script>
+  <script>
+    const categoria = localStorage.getItem('categoriaSelecionada');
+    const mapaArquivos = {
+      "Chuteiras": "json/chuteiras.json",
+      "Luvas": "json/luvas.json",
+      "Camisas": "json/camisas.json",
+      "Caneleiras": "json/caneleiras.json",
+      "Meiões": "json/meioes.json",
+      "Bolas": "json/bolas.json"
+    };
+
+    document.querySelector('.titulo-categoria').textContent = categoria;
+
+    fetch(mapaArquivos[categoria])
+      .then(res => res.json())
+      .then(produtos => {
+        const container = document.getElementById('todosProdutos');
+        produtos.forEach(produto => {
+          const card = document.createElement('div');
+          card.className = 'produto';
+          card.innerHTML = `
+            <div class="produto-imagem">
+              <img src="${produto.imagem}" alt="${produto.nome}" onerror="this.src='imagem/placeholder.png'">
+            </div>
+            <div class="produto-info">
+              <h4>${produto.nome}</h4>
+              <p class="descricao">${produto.descricao}</p>
+              <p class="preco">R$ ${produto.preco.toFixed(2).replace('.', ',')}</p>
+              <button class="btn-adicionar">Adicionar ao Carrinho</button>
+            </div>
+          `;
+
+          card.querySelector('.btn-adicionar').addEventListener('click', (e) => {
+            e.stopPropagation();
+            let carrinho = JSON.parse(localStorage.getItem('cart')) || [];
+            const existente = carrinho.find(item => item.id === produto.id);
+            if (existente) {
+              existente.quantity += 1;
+            } else {
+              carrinho.push({ ...produto, quantity: 1 });
+            }
+            localStorage.setItem('cart', JSON.stringify(carrinho));
+            alert(`${produto.nome} adicionado ao carrinho!`);
+          });
+
+          card.addEventListener('click', () => {
+            localStorage.setItem('produtoSelecionado', JSON.stringify(produto));
+            window.location.href = 'verproduto.html';
+          });
+
+          container.appendChild(card);
+        });
+      });
+  </script>
+</body>
+</html>

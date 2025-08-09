@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalhes do Produto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header carregado dinamicamente -->
+  <div id="header-placeholder"></div>
+
+  <!-- Produto -->
+  <main class="produto-detalhe">
+    <div class="imagem-produto">
+      <img id="produtoImagem" class="imagem-principal" src="" alt="Produto" />
+    </div>
+    <div class="info-produto">
+      <div id="avaliacaoContainer" class="avaliacao-produto"></div>
+      <h1 id="produtoNome">Nome do Produto</h1>
+      <p id="produtoDescricao">Descrição</p>
+      <p id="produtoPreco">Preço</p>
+
+      <label for="tamanho">Tamanho:</label>
+      <select id="tamanho">
+        <option value="">Selecione</option>
+        <option value="38">38</option>
+        <option value="39">39</option>
+        <option value="40">40</option>
+        <option value="41">41</option>
+        <option value="42">42</option>
+      </select>
+
+      <div class="angulos-container">
+        <h3 class="angulos-title">Todos os Ângulos</h3>
+        <div id="miniaturas" class="miniaturas"></div>
+      </div>
+      
+      <div class="variacoes-container" id="variacoesContainer">
+        <h3>Outros Modelos</h3>
+        <div class="variacoes-lista"></div>
+      </div>
+
+      <div class="botoes-compra">
+        <button id="adicionarCarrinho">Adicionar ao Carrinho</button>
+        <button id="comprarAgora">Comprar Agora</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer carregado dinamicamente -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="headerFooter.js"></script>
+  <script src="verproduto.js"></script>
+</body>
+
+</html>
